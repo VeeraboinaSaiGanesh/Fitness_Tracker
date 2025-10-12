@@ -9,7 +9,7 @@ pipeline {
         EKS_CLUSTER_NAME = "g-cluster"
         AWS_REGION = "eu-north-1"
     }
-    stages {
+    stages { 
         stage('Checkout') {
             steps {
                 git credentialsId: 'github_credentials',
