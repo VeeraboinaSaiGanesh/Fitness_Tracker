@@ -6,8 +6,8 @@ pipeline {
     environment {
         DOCKER_IMAGE = "gani220/fitness_tracker-master-copy3-fitness-app"
         DOCKER_TAG   = "${BUILD_NUMBER}"
-        EKS_CLUSTER_NAME = "g-cluster"
-        AWS_REGION = "eu-north-1"
+        EKS_CLUSTER_NAME = "g-test-cluster"
+        AWS_REGION = "mx-central-1"
     }
     stages { 
         stage('Checkout') {
