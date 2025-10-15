@@ -63,7 +63,7 @@ pipeline {
             }
         }
 
-        stage('Push Docker a Image') {
+        stage('Push Docker Image') {
             steps {
                 script {
                     echo "📦 Pushing Docker image..."
